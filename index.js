@@ -40,7 +40,7 @@ app.post("/payment", async (req, res) => {
   return res.send({ message: "Payment Successful" });
 });
 
-app.get("/sunny", async (req, res) => {
+app.get("/", async (req, res) => {
    res.send("Api is live");
 });
 
